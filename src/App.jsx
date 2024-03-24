@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import tailwindLogo from "/Tailwind_CSS_Logo.svg.png";
 import "./App.css";
 
 function App() {
@@ -15,9 +16,17 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://tailwindcss.com/" target="_blank">
+          <img
+            src={tailwindLogo}
+            className="logo tailwind"
+            alt="Tailwind logo"
+          />
+        </a>
       </div>
       <div>
         <h1>Hello React</h1>
+        <h3>React + Vite + Tailwind</h3>
       </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
